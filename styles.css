@@ -1,0 +1,311 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #0056b3;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-top: 20px;
+}
+
+/* Video Section */
+.video-section {
+    background-color: #e0e0e0;
+    color: #333;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/* Price Section */
+.price-section {
+    background-color: #ffcc00;
+    color: #333;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.price-section h2 {
+    font-size: 2rem;
+}
+
+.canceled-price {
+    text-decoration: line-through;
+    color: red;
+    font-size: 1.5rem;
+}
+
+.new-price {
+    color: green;
+    font-size: 2rem;
+    margin-top: 10px;
+}
+
+/* Story Section */
+.story {
+    background-color: #ffffff;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.story h2 {
+    font-size: 2rem;
+}
+
+.story p {
+    font-size: 1rem;
+    margin-top: 20px;
+}
+
+/* Testimonials Section */
+.testimonials {
+    background-color: #e0e0e0;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.testimonials h2 {
+    font-size: 2rem;
+}
+
+.testimonials p {
+    font-size: 1rem;
+    margin-top: 20px;
+}
+
+/* Course Details Section */
+.course-details {
+    background-color: #ffffff;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.course-details h2 {
+    font-size: 2rem;
+}
+
+.course-details ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.course-details li {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+/* Call to Action Section */
+.cta-section {
+    background-color: #ff9900;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.cta-section h2 {
+    font-size: 2rem;
+}
+
+.cta-section p {
+    font-size: 1rem;
+    margin-top: 20px;
+}
+
+iframe {
+    margin-top: 20px;
+    border: 2px solid #ff9900;
+    border-radius: 10px;
+}
+
+/* Countdown Timer Section */
+.countdown-timer {
+    background-color: #ffffff;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+#timer {
+    font-size: 2rem;
+    color: red;
+}
+
+/* FAQ Section */
+.faq {
+    background-color: #e0e0e0;
+    padding: 40px 20px;
+}
+
+.faq h2 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.faq-item {
+    margin-top: 20px;
+}
+
+.faq-question {
+    cursor: pointer;
+    font-size: 1.2rem;
+    background-color: #ff9900;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.faq-answer {
+    display: none;
+    font-size: 1rem;
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+/* Company Info Section */
+.company-info {
+    background-color: #ffffff;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.profile-image {
+    display: block;
+    margin: 20px auto;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.profile-image img {
+    width: 100%;
+    height: auto;
+}
+
+.inspiring-message {
+    font-size: 1.2rem;
+    margin-top: 20px;
+    font-style: italic;
+}
+
+
+/* WhatsApp Group Section */
+.whatsapp-group-section {
+    background-color: #4CAF50; /* Green background to match WhatsApp theme */
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+    margin-top: 20px;
+}
+
+.whatsapp-group-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.whatsapp-group-section p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.join-whatsapp-btn {
+    background-color: white;
+    color: #4CAF50;
+    font-size: 1.2rem;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.join-whatsapp-btn:hover {
+    background-color: #388E3C; /* Darker green on hover */
+    color: white;
+}
+
+/* Popup Section */
+.popup {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #0056b3;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(207, 152, 152, 0.1);
+}
+
+.popup p {
+    margin: 0;
+}
+
+
+/* Mobile-Friendly Adjustments */
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .course-details h2,
+    .story h2,
+    .testimonials h2,
+    .cta-section h2,
+    .countdown-timer h2,
+    .faq h2,
+    .company-info h2 {
+        font-size: 1.5rem;
+    }
+
+    .course-details ul,
+    .course-details li,
+    .story p,
+    .testimonials p,
+    .cta-section p {
+        font-size: 0.9rem;
+    }
+
+    #registration-form input,
+    #registration-form button {
+        width: 100%;
+    }
+
+    .whatsapp-group-section h2 {
+        font-size: 1.5rem;
+    }
+
+    .whatsapp-group-section p {
+        font-size: 0.9rem;
+    }
+
+    .join-whatsapp-btn {
+        font-size: 1rem;
+        padding: 10px 20px;
+    }
+
+
+}
+
